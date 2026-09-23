@@ -1,0 +1,27 @@
+
+/* IB STRIJDERS custom layer */
+.ib-overline{font-size:.72rem;letter-spacing:.18em;text-transform:uppercase;font-weight:800;margin:0 0 1.1rem;color:#e2b54b}
+#banner.ib-banner{background:linear-gradient(135deg,rgba(9,14,25,.88),rgba(25,56,102,.74)),url("images/banner.jpg") center/cover no-repeat}
+#banner.ib-banner .inner{max-width:900px}
+#banner.ib-banner h2{font-size:clamp(4rem,12vw,9rem);letter-spacing:-.06em;line-height:.82}
+#banner.ib-banner p:not(.ib-overline){max-width:650px}
+.ib-video-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.25rem;margin:2rem 0 2.5rem}
+.ib-video-grid article{background:rgba(0,0,0,.18);border:1px solid rgba(255,255,255,.15)}
+.ib-video-grid video{display:block;width:100%;aspect-ratio:9/14;object-fit:cover;background:#080b11}
+.ib-video-grid h3{font-size:.75rem;letter-spacing:.13em;margin:0;padding:1rem;color:#fff}
+.ib-subhero{padding:9rem 0 5rem;background:linear-gradient(135deg,#111827,#244e7d)}
+.ib-subhero .inner{max-width:1100px;margin:auto}
+.ib-subhero h2{font-size:clamp(4rem,10vw,8rem);line-height:.82;letter-spacing:-.06em;margin:.4rem 0 1.2rem}
+.ib-subhero p:not(.ib-overline){max-width:650px;color:rgba(255,255,255,.82)}
+.ib-video-archive{display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem}
+.ib-video-archive article{background:#fff;box-shadow:0 15px 45px rgba(0,0,0,.16)}
+.ib-video-archive video{width:100%;display:block;aspect-ratio:9/14;object-fit:cover;background:#080b11}
+.ib-video-archive article>div{padding:1.25rem 1.4rem 1.5rem}
+.ib-video-archive span{font-size:.7rem;letter-spacing:.15em;font-weight:800;color:#a47b25}
+.ib-video-archive h3{margin:.35rem 0;color:#202838}
+.ib-video-archive p{margin:0;color:#667085}
+.ib-quotes{max-width:1050px}
+.ib-quotes article{display:grid;grid-template-columns:60px 1fr;gap:1.5rem;padding:3rem 0;border-bottom:1px solid rgba(0,0,0,.14)}
+.ib-quotes article>span{font-size:.75rem;letter-spacing:.15em;font-weight:800;color:#a47b25}
+.ib-quotes blockquote{margin:0;border:0;padding:0;font-size:clamp(1.5rem,3vw,2.7rem);line-height:1.15;color:#1b2432;font-weight:600}
+@media(max-width:736px){.ib-video-grid,.ib-video-archive{grid-template-columns:1fr}.ib-subhero{padding:7rem 1.25rem 4rem}.ib-quotes article{grid-template-columns:35px 1fr}.ib-quotes blockquote{font-size:1.5rem}.ib-banner h2{font-size:4.4rem}}

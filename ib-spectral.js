@@ -1,0 +1,1 @@
+document.querySelectorAll('video').forEach(function(video){video.addEventListener('play',function(){document.querySelectorAll('video').forEach(function(other){if(other!==video) other.pause();});});});
